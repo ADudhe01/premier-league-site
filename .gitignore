@@ -15,7 +15,9 @@ build/
 .env.test.local
 .env.production.local
 /server/.env
-/server/.env.example
+# Allow .env.example files
+!.env.example
+!/server/.env.example
 
 # Logs
 logs
